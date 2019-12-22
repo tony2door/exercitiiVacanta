@@ -13,11 +13,14 @@ public class Usernames20 {
         String actualUsername = "tony";
         String actualPassword = "1234";
 
-        if (username.equalsIgnoreCase(actualUsername) && password.equalsIgnoreCase(actualPassword)){
+        String actualUsername1 = "emily";
+        String actualPassword1 = "cat";
+
+        if ((username.equalsIgnoreCase(actualUsername) && password.equalsIgnoreCase(actualPassword)
+                || ((username.equalsIgnoreCase(actualUsername1) && password.equalsIgnoreCase(actualPassword1))))) {
             System.out.println("you are now logged into the system");
-        }
-        else {
-            System.out.println("wrong id or pass");
+        } else {
+            System.out.println("invalid username or password");
         }
     }
 }
