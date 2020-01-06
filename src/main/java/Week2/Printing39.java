@@ -1,7 +1,5 @@
 package Week2;
 
-import java.util.Scanner;
-
 public class Printing39 {
     public static void main(String[] args) {
         printStars(5);
