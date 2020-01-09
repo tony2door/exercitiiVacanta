@@ -19,7 +19,6 @@ public class VocaleExercise {
         vocale.add('o');
         vocale.add('u');
         int counter = 0;
-        int z = 0;
         ArrayList<Character> allLetters = new ArrayList<Character>();
 
         for (int i = 0; i < cuvinte.size(); i++) { // pentru fiecare litera din cuvantu b a r z a
@@ -29,11 +28,11 @@ public class VocaleExercise {
         }
         for (int i = 0; i < allLetters.size(); i++) {
             for (int j = 0; j < vocale.size(); j++) {
-                if(vocale.get(j)==allLetters.get(i)){
+                if (vocale.get(j) == allLetters.get(i)) {
                     counter++;
                 }
             }
         }
         System.out.println(cuvinte + "vocale: " + counter);
     }
-    }
+}
